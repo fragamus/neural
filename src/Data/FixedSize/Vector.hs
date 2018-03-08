@@ -6,6 +6,8 @@
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE FlexibleContexts #-}
 
+{-# OPTIONS_GHC -fplugin GHC.TypeLits.Normalise #-}
+
 {-# OPTIONS_HADDOCK show-extensions #-}
 
 {-|
